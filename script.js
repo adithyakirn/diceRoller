@@ -8,6 +8,7 @@ function rollDice(){
     diceImage.classList.remove("rotate", "fadeIn");
     void diceImage.offsetWidth; 
     diceImage.classList.add("rotate");
+
     intervalId = setInterval(() => {
         diceImage.src = `images_dice/${diceValues[currentIndex]}.png`;
         currentIndex = (currentIndex + 1) % diceValues.length;

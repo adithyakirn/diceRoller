@@ -26,17 +26,17 @@ body{
 .imgContainer{
     display: flex;
     justify-content: center;
-    position: absolute;
-    top: -25%;
     width: 100%;
+    position: relative;
+    top: -10px;
+
 }
 .mainImg{
-    scale: 0.4;
-    position: relative;
+    width: 400px;
     animation-name:upAndDown;
     animation-iteration-count:infinite;
     animation-direction:alternate;
-    animation-duration: 3s;
+    animation-duration: 5s;
     pointer-events: none;
 }
 @keyframes upAndDown{
